@@ -12,14 +12,6 @@
   <ul>
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
-
-
-
-  <ul>
-    <li>To create a new loan application/ loan :- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p>
-  </ul>
-  <ul>
     <li>To do a payment of a loan:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
     
