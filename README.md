@@ -61,3 +61,8 @@
   </ul>  
 </div>
 
+<div>
+  <h2>Additional ⚠</h2>
+  <p>To run this api locally make sure to delete the old sqlite db and then re migrate by using "python manage.py makemigration -> python manage.py makemigration" commands</p>
+</div>
+
