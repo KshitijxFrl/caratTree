@@ -7,7 +7,8 @@ from .models import User
 def cc_score(aadhar_id):
     user = User.objects.get(aadhar_id=aadhar_id)
     total_balance = 0
-    with open('E:\\practice\\caratTree\\credit_service\\crs\\transactions_data_backend.csv', 'r') as file:
+    # please make sure path is correct
+    with open('.\transactions_data_backend.csv', 'r') as file:
         reader = csv.DictReader(file)
         for row in reader:
             if row['user'] == str(aadhar_id):
