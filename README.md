@@ -10,33 +10,45 @@
 
   <h3>▶ To access the features here are the apis 🚥</h3>
   <ul>    
-    <li>To create a new user:- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p>
+  <li>To create a new user:- api/register-user/</li>
+  <p>Send a POST request with this raw body input </p>
+
+  ```
+  {
+  "aadhar_id": "sameple use id mentioned in the given csv file",<br/>
+  "name": "name",<br/>
+  "email": "xxx.xxx@example.com",<br/>
+  "annual_income": amount <br/>
+  }
+  ```
+  <br/>
+  <li>To apply for loan:- api/register-user/</li>
+  <p>Send a POST request with this raw body input </p>
+  
+  ```
     {
-    "aadhar_id": "sameple use id mentioned in the given csv file",<br/>
-    "name": "name",<br/>
-    "email": "xxx.xxx@example.com",<br/>
-    "annual_income": amount <br/>
-    }<br/>
-    <li>To apply for loan:- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p>
-    {
-    "user": "aadhar id / user id ",<br/>
-    "loan_type": "Credit Card",<br/>
+    "user": "aadhar id / user id ",
+    "loan_type": "Credit Card",
     "loan_amount": x,<br/>
-    "interest_rate": x,<br/>
-    "term_period": x,<br/>
-    "disbursement_date": "2024-01-01"<br/>
-    }<br/>
-    <li>To do a payment of a loan:- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p>
+    "interest_rate": x,
+    "term_period": x,
+    "disbursement_date": "2024-01-01"
+    }  
+  ```  
+<br/>
+<li>To do a payment of a loan:- api/register-user/</li>
+<p>Send a POST request with this raw body input </p>
+
+```
     {
     "loan_id": "loan id",<br/>
     "amount": amount which need to be paid<br/>
-    }<br/>
-    <li>To view a paricular loan dues and past transations:- api/register-user/</li>
-    <p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p>
-    </ul>
+    } 
+```
+<br/>
+<li>To view a paricular loan dues and past transations:- api/register-user/</li>
+<p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p>
+</ul>
   <h3>To perform Corn Job ⚙</h3>
   <p>A custom billing .py has been made at "credit-services->crs->management->comands->billing" tihs can be performde by bashing python manage.py billing
     or by using corntab in linux or task schdedular in windows.</p>  
@@ -61,11 +73,6 @@
   </ul>  
 </div>
 
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
 <div>
 <h2>Additional ⚠</h2>
 <p>To run this api locally make sure to delete the old sqlite db and then re migrate by using "python manage.py makemigration -> python manage.py makemigration" commands</p>
