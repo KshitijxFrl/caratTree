@@ -61,8 +61,13 @@
   </ul>  
 </div>
 
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
 <div>
-<h2 style="color: yellow">Additional ⚠</h2>
+<h2>Additional ⚠</h2>
 <p>To run this api locally make sure to delete the old sqlite db and then re migrate by using "python manage.py makemigration -> python manage.py makemigration" commands</p>
 </div>
 
