@@ -9,6 +9,7 @@
   <h4>▶ It have four major features and additionaly it comes with a corn job which a job on each day, and fetch the users for whom billing needs to be done. Once the       list of users is available, start the billing process</h4>
 
   <h3>▶ To access the features here are the apis 🚥</h3>
+  <ol>    
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
     {
@@ -34,7 +35,8 @@
     "amount": amount which need to be paid<br/>
     }<br/>
     <li>To view a paricular loan dues and past transations:- api/register-user/</li>
-    <p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p> 
+    <p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p>
+    </ol>
   <h3>To perform Corn Job ⚙</h3>
   <p>A custom billing .py has been made at "credit-services->crs->management->comands->billing" tihs can be performde by bashing python manage.py billing
     or by using corntab in linux or task schdedular in windows.</p>  
