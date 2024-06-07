@@ -8,7 +8,7 @@
   <h4>▶ This repo contain the backend of the carate tree built with django.</h4>
   <h4>▶ It have four major features and additionaly it comes with a corn job which performed each day, and fetch the users for whom billing needs to be done. Once the       list of users is available, start the billing process</h4>
 
-  <h3>▶ To access the features here are the apis 🚥</h3>
+  <h3>▶ To access the features here are the apis 🟢🟡🔴</h3>
   <ul>    
   <li>To create a new user:- api/register-user/</li>
   <p>Send a POST request with this raw body input </p>
@@ -75,6 +75,7 @@
 
 <div>
 <h2>Additional ⚠</h2>
-<p>To run this api locally make sure to delete the old sqlite db and then re migrate by using "python manage.py makemigration -> python manage.py makemigration" commands</p>
+<p>🔴 To run this api locally make sure to delete the old sqlite db and then re migrate by using "python manage.py makemigration -> python manage.py makemigration" commands.</p>
+<p>🔴 Make sure in csv file is set properly in the "credit-service->crs->ash_task.py" which is responsible for the asynchronous Celery task to calculate the user's credit score.</p>  
 </div>
 
