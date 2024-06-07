@@ -12,6 +12,14 @@
   <ul>
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
+    '''
+    {
+    "aadhar_id": "56f5dda0-a270-4b41-a772-fd40abbe1e5c",
+    "name": "J",
+    "email": "jjjj.xyz@example.com",
+    "annual_income": 1500000
+    }
+    '''
   </ul>
   <ul>
     <li>To create a new loan application/ loan :- api/register-user/</li>
@@ -20,10 +28,11 @@
   <ul>
     <li>To do a payment of a loan:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
+    
   </ul>
   <ul>
     <li>To view a paricular loan dues and past transations:- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p>
+    <p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p>
   </ul>  
   <h3>To perform Corn Job ⚙</h3>
   <p>A custom billing .py has been made at "credit-services->crs->management->comands->billing" tihs can be performde by bashing python manage.py billing
