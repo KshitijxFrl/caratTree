@@ -39,6 +39,25 @@
   </ul>  
   <h3>To perform Corn Job ⚙</h3>
   <p>A custom billing .py has been made at "credit-services->crs->management->comands->billing" tihs can be performde by bashing python manage.py billing
-    or by using corntab in linux or task schdedular in windows.</p>
-  
+    or by using corntab in linux or task schdedular in windows.</p>  
 </div>
+
+<div>
+  <h2>Django app models and view info 📜</h2>
+  <h3>Models</h3>
+  <ul>
+    <li>User: to create a new user</li>
+    <li>Loan: to create a loan request</li>
+    <li>Payment: for loan transactions</li>
+    <li>BillingDetails and DuePayment: for corn jon</li>
+  </ul>
+
+  <h3>Views</h3>
+  <ul>
+    <li>newUser</li>
+    <li>LoanApplication</li>
+    <li>MakePayment</li>
+    <li>GetStatement</li>
+  </ul>  
+</div>
+
