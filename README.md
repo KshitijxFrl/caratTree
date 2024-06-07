@@ -43,7 +43,7 @@
 </div>
 <hr/>
 <div>
-  <h2>Django app models and view info 📜</h2>
+  <h2>Django app models and views info 📜</h2>
   <h3>Models</h3>
   <ul>
     <li>User: to create a new user</li>
