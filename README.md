@@ -13,10 +13,10 @@
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
     {<br />
-    "aadhar_id": "56f5dda0-a270-4b41-a772-fd40abbe1e5c",
-    "name": "J",
-    "email": "jjjj.xyz@example.com",
-    "annual_income": 1500000
+    "aadhar_id": "UUID as metion in the assignmet used as aadhar form the csv id user header",
+    "name": "sample name",<br />
+    "email": "sameple.xyz@example.com",<br />
+    "annual_income": amount<br />
     }
 
 
