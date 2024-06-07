@@ -3,6 +3,7 @@
   <h4>☀ Cara Tree is top of the loan providing platform which help various users to full their monery need with loan with easy emi options catering their needs. 💸</h4>
 </div>
 
+<hr/>
 <div>
   <h2>Technical description🚀</h2>
   <h4>▶ This repo contain the backend of the carate tree built with django.</h4>
