@@ -12,14 +12,12 @@
   <ul>
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
-    '''
     {
-    "aadhar_id": "56f5dda0-a270-4b41-a772-fd40abbe1e5c",
-    "name": "J",
-    "email": "jjjj.xyz@example.com",
-    "annual_income": 1500000
+    "aadhar_id": "sameple use id mentioned in the given csv file",<br/>
+    "name": "J",<br/>
+    "email": "jjjj.xyz@example.com",<br/>
+    "annual_income": 1500000 <br/>
     }
-    '''
     <li>To apply for loan:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
     <li>To do a payment of a loan:- api/register-user/</li>
