@@ -12,7 +12,7 @@
   <ul>
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
-    '''
+    '''json
     {
     "aadhar_id": "56f5dda0-a270-4b41-a772-fd40abbe1e5c",
     "name": "J",
