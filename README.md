@@ -12,12 +12,7 @@
   <ul>
     <li>To create a new user:- api/register-user/</li>
     <p>Send a POST request with this raw body input </p>
-    {<br />
-    "aadhar_id": "UUID as metion in the assignmet used as aadhar form the csv id user header",
-    "name": "sample name",<br />
-    "email": "sameple.xyz@example.com",<br />
-    "annual_income": amount<br />
-    }
+
 
 
   <ul>
