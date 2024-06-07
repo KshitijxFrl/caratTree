@@ -2,7 +2,6 @@
 <div>
   <h4>☀ Cara Tree is top of the loan providing platform which help various users to full their monery need with loan with easy emi options catering their needs. 💸</h4>
 </div>
-
 <hr/>
 <div>
   <h2>Technical description🚀</h2>
@@ -42,7 +41,7 @@
   <p>A custom billing .py has been made at "credit-services->crs->management->comands->billing" tihs can be performde by bashing python manage.py billing
     or by using corntab in linux or task schdedular in windows.</p>  
 </div>
-
+<hr/>
 <div>
   <h2>Django app models and view info 📜</h2>
   <h3>Models</h3>
