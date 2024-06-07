@@ -11,16 +11,15 @@
   <h3>▶ To access the features here are the apis</h3>
   <ul>
     <li>To create a new user:- api/register-user/</li>
-    <p>Send a POST request with this raw body input
-    
+    <p>Send a POST request with this raw body input </p>
+    {
     "aadhar_id": "56f5dda0-a270-4b41-a772-fd40abbe1e5c",
     "name": "J",
     "email": "jjjj.xyz@example.com",
     "annual_income": 1500000
+    }
 
-    </p>
-    
-    
+
   </ul>
   
 </div>
