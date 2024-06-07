@@ -11,12 +11,7 @@
   <h3>▶ To access the features here are the apis 🚥</h3>
   <ul>    
     <li>To create a new user:- api/register-user/</li>
-    <p>Send a POST request with this raw body input </p
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+    <p>Send a POST request with this raw body input </p>
     {
     "aadhar_id": "sameple use id mentioned in the given csv file",<br/>
     "name": "name",<br/>
