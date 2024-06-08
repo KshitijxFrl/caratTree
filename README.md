@@ -50,9 +50,11 @@
 <p>Send a GET request http://127.0.0.1:8000/api/get-statement/?loan_id="Enter Your Loan ID" </p>
 </ul>
 <h3>To perform Corn Job ⚙</h3>
+<ul>
 <li>A custom billing .py has been made at "credit-services->crs->management->comands->billing"</li>
 <li>To test the job just rum python manage.py billing command in the terminal</li> 
-<li><p>To perform job on daily basic we can do that by using  corntab in linux or task schdedular in windows.</p>  </li>
+<li>To perform job on daily basic we can do that by using  corntab in linux or task schdedular in windows.</li>
+</ul>
 </div>
 <hr/>
 <div>
